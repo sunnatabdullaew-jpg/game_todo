@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="div">
-        
+   <div class="task-form">
+        <h2>Yangi vazifa qo'shish</h2>
+
+        <label>Vazifa nomi</label>
+        <input type="text" placeholder="Masalan: Find the sword">
+
+        <div class="row">
+             <div class="col">
+             <label>Qiyinchilik</label>
+            <select>
+                <option>Easy</option>
+                <option>Medium</option>
+                 <option>Hard</option>
+            </select>
+        </div>
+
+            <div class="col">
+                <label>Kategoriya </label>
+                <input type="text" placeholder="work,home,urgent">
+            </div>
+         </div>
+
+            <label>Tavsif</label>
+            <textarea placeholder="Qisqacha vazifa tavsifi..."></textarea>
+
+        <div class="btns">
+         <button class="add">ADD TASK</button>
+            <button class="random">RANDOM TASK (unshift)</button>
+            <button class="clear-last">CLEAR LAST (pop)</button>
+            <button class="clear-first">CLEAR FIRST (shift)</button>
+        </div>
+
+        <button class="uppercase">ALL UPPERCASE</button>
     </div>
+    <script src="./script.js"></script>
+</div>
 </body>
 </html>
