@@ -193,3 +193,63 @@
   color: #4338ca;
 }
 
+.task-list {
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.task-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.task-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.difficulty.easy {
+  color: green;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.difficulty.medium {
+  color: orange;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.difficulty.hard {
+  color: red;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.task-item button {
+  margin-right: 8px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.complete-btn { background: #4caf50; color: white; }
+.edit-btn { background: #2196f3; color: white; }
+.delete-btn { background: #f44336; color: white; }
+.task-category {
+  font-size: 0.85rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 3px 6px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 4px;
+}
